@@ -1,0 +1,135 @@
+<!doctype html>
+<html lan="en">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Madrid European Bakery - Responsive Redesign</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-item" href="#Home">HOME</a>
+        <a class="navbar-item" href="#About">ABOUT</a>
+        <a class="navbar-item" href="#Menu">MENU</a>
+        <a class="navbar-item" href="#GiftCards">GIFT CARDS</a>
+        <a class="navbar-item" href="#Contact">CONTACT</a>
+    </nav>
+    <div class="main">
+        <div class="title" id="Home">
+            <h2 class="navbar-title">Madrid European Bakery</h2>
+        </div>
+        <div class="first-part">
+            <p id="about-desc">Bringing an authentic piece of Madrid to an unexpected corner of Rhode Island - you just
+                have
+                to see it!</p>
+            <p id="about-desc">To check out our menu, reach out or grant the perfect gift, navigate below!</p>
+            <img id="first-img" src="./assets/responsive_redesign_coffee_pastry.jpg"></img>
+        </div>
+        <div class="title" id="About">
+            <h2 class="navbar-title">About</h2>
+        </div>
+        <div class="first-part">
+            <p id="about-desc">A husband-and-wife team brings a taste of Madrid to Providence’s East Side.</p>
+            <p id="about-desc">The bakery not only offers a wide range of classic European pastires, but also</p>
+            <p id="about-desc">a relaxed vibe resemblant of the authentic European cafe experience.</p>
+            <br>
+            <p id="about-desc">With WiFi, abundant seating and large windows, customers come</p>
+            <p id="about-desc">not only for delicious treats, but also for an enjoyable experience</p>
+        </div>
+        <div id="co-owners">
+            <img id="second-img" src="./assets/responsive_redesign_co_owners.jpg"></img>
+        </div>
+        <div>
+            <p id="co-owners-names">Sergio Mendoza, Hercilia Corona </p>
+        </div>
+        <div>
+            <p id="co-owners-subtitle">Co-owner and Baker, Co-owner </p>
+        </div>
+        <div>
+            <p id="co-owners-desc">With a cumulative half-century <br> of baking experience, Sergio and Hercilia <br> offer Madrid's finest baking practices
+                 <a href="#">See More</a></p>
+        </div>
+        <div class="title">
+            <h2 class="navbar-title" id="Menu">Menu</h2>
+        </div>
+        <div class="second-part" id="menu-text">
+            <p>We serve fresh goods and update our menu weekly. Here are treats for this week!</p>
+        </div>
+        <div id="co-owners">
+            <img id="third-img" src="./assets/responsive_redesign_pastries.jpg"></img>
+        </div>
+        <div class="third-part">
+            <p id="co-owners-subtitle">Click below to see this week's full stock!</p>
+            <button>MENU</button>
+        </div>
+        <div class="title">
+            <h2 class="navbar-title" id="GiftCards">Gift Cards</h2>
+        </div>
+        <div id="gift-cards-text">
+            <p>After purchasing a digital gift card, you or your recipient will receive an email <br>
+                with a unique code. At online checkout, type in the code to redeem!</p>
+        </div>
+        <!-- <div class="second-part" id="menu-text">
+            <p>After purchasing a digital gift card, you or your recipient will receive an email <br>
+                with a unique code. At online checkout, type in the code to redeem!</p>
+        </div> -->
+        <div class="form">
+            <form>
+                <input id="input" type="number" name="amount" placeholder="Select Amount"><br><br>
+                <input id="input" type="text" name="recipient's name" placeholder="Recipient's Name"><br><br>
+                <input id="input" type="email" name="recipient's email" placeholder="Recipient's Email"><br><br>
+                <input id="input" type="date" name="send time" placeholder="Send Immediately"><br><br>
+                <input id="input" type="text" name="your name" placeholder="Your Name"><br><br>
+                <input id="input" type="email" name="your email" placeholder="Your Email"><br><br>
+                <!-- <input id="message-input" type="text" name="message" placeholder="Message"><br><br> -->
+                <textarea id="input" rows="10" cols="43" placeholder="Message"></textarea><br><br>
+                <button>ADD TO CART</button>
+            </form>
+        </div>
+        <div class="title">
+            <h2 class="navbar-title" id="Contact">Contact Us</h2>
+        </div>
+        <div class="contact">
+            <div class="contact-text">
+                199 Wayland Ave. <br>
+                Providence, RI 02906 <br><br>
+                <strong id="boldtext">Hours</strong><br>
+                Monday: Closed <br>
+                Tuesday - Saturday: 7am - 7pm
+                <br> Sunday: 7am - 5pm <br>
+                <br><strong id="boldtext">Phone</strong><br>
+                (401) 409-2300
+            </div>
+            <div class="gmap_canvas">
+                <iframe width="600" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=199%20wayland%20ave,%20providence,%20ri&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+                <br>
+            </div>
+        </div>
+        <div class="fourth-part">
+            <p id="feedback-subtitle">Questions, feedback, requests are all welcome! We'll get back to you within 24
+                hours.
+            </p>
+        </div>
+        <div class="form">
+            <form>
+                <input id="input" type="text" name="name" placeholder="Name"><br><br>
+                <input id="input" type="text" name="email" placeholder="Email"><br><br>
+                <textarea id="input" rows="10" cols="43" placeholder="Message"></textarea><br><br>
+                <button>SEND</button>
+            </form>
+        </div>
+        <a id="jump" href="#Home">Jump To Top</a>
+    </div>
+</body>
+
+</html>
